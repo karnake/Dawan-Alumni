@@ -14,6 +14,7 @@
     <?php include "view/nav.php"; ?>
 
     <section class="container bg-light mt-5 p-3">
+    <h2 class="text-center">Bienvenu sur notre réseau Dawan alumni</h2>
         <?php include "view/slider-containe.php"; ?>
         <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officiis repudiandae!
             Fugiat laudantium dolor repellendus at sapiente iste vel placeat eveniet quidem consequuntur distinctio,

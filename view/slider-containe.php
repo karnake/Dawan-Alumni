@@ -6,13 +6,10 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://media.istockphoto.com/photos/homeschooling-mother-helping-to-her-daughters-to-finish-school-picture-id1215474889" class="d-block w-100" alt="...">
+      <img src="assets/img/picsSlider1.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
     </div>
     <div class="carousel-item">
-      <img src="https://media.istockphoto.com/photos/keep-the-connection-going-strong-throughout-the-night-picture-id1164885389" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://media.istockphoto.com/photos/doing-a-little-online-shopping-picture-id611068790" class="d-block w-100" alt="...">
+      <img src="assets/img/picsSlider2.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
