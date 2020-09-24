@@ -12,7 +12,7 @@
       <img src="https://media.istockphoto.com/photos/keep-the-connection-going-strong-throughout-the-night-picture-id1164885389" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="https://media.istockphoto.com/photos/doing-a-little-online-shopping-picture-id611068790" class="d-block w-100" alt="...">
+      <img src="  " class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
