@@ -9,12 +9,6 @@
       <img src="assets/img/picsSlider1.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
     </div>
     <div class="carousel-item">
-      <img src="https://media.istockphoto.com/photos/keep-the-connection-going-strong-throughout-the-night-picture-id1164885389" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://media.istockphoto.com/photos/doing-a-little-online-shopping-picture-id611068790" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
       <img src="assets/img/picsSlider2.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
     </div>
   </div>
