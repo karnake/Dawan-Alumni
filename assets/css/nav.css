@@ -14,3 +14,14 @@ button:hover{
 .connexion {
     padding-bottom: 45px;
 }
+
+.btn-primary {
+    background-color: #eb7a11;
+    border:0;
+}
+
+.btn-primary:hover {
+    background-color: #f5a256;
+
+
+}
