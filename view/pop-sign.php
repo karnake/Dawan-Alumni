@@ -6,9 +6,9 @@
 
         <div class="form-group">
             <label for="SignInNom">Nom</label>
-            <input type="text" class="form-control" id="SignInNom" placeholder="Nom">
+            <input type="text" class="form-control" id="SignInNom" placeholder="Nom" name="nom">
             <label for="SignInPrenom">Prenom</label>
-            <input type="text" class="form-control" id="SignInPrenom" placeholder="Prenom">
+            <input type="text" class="form-control" id="SignInPrenom" placeholder="Prenom" name="prenom">
         </div>
 
         <div class="form-group">
