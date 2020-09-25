@@ -2,7 +2,7 @@
         <button type="button" id="close-connexion" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>
-        <form class="mt-5 mb-5" action="" method="post">
+        <form class="mt-5 mb-5" action="view/connexion.php" method="post">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
