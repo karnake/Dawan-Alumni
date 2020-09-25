@@ -12,7 +12,7 @@
 
 <body>
     <?php include "view/nav.php"; ?>
-<div id="debut">
+    <div id="debut">
     <section class="container bg-light mt-5 p-3">
     <h2 class="text-center">Bienvenu sur notre réseau Dawan alumni</h2>
         <?php include "view/slider-containe.php"; ?>
@@ -28,7 +28,7 @@
                 quibusdam adipisci atque nemo.</div>
         </div>
     </section>
-</div>
+    </div>
     <?php include "view/pop-connexion.php"; ?>
     <?php include "view/pop-sign.php"; ?>
     <?php include "view/footer.php"; ?>
