@@ -12,7 +12,7 @@
 
 <body>
     <?php include "view/nav.php"; ?>
-
+<div>
     <section class="container bg-light mt-5 p-3">
     <h2 class="text-center">Bienvenu sur notre réseau Dawan alumni</h2>
         <?php include "view/slider-containe.php"; ?>
@@ -28,7 +28,7 @@
                 quibusdam adipisci atque nemo.</div>
         </div>
     </section>
-
+</div>
     <?php include "view/pop-connexion.php"; ?>
     <?php include "view/pop-sign.php"; ?>
     <?php include "view/footer.php"; ?>
@@ -42,6 +42,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script type="module" src="assets/js/app.js"></script>
+
 </body>
 
 </html>
