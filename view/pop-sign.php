@@ -27,6 +27,6 @@
             <label for="exampleInputPassword1">Password check</label>
             <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
         </div>
-        <button type="submit" class="btn btn-primary" onclick="return Validate()">Submit</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
