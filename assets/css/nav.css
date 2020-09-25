@@ -1,5 +1,6 @@
 nav{
     height: 100px;
+    background-color: #2d2c2c;
 }
     h1{
         margin: auto;
@@ -8,3 +9,5 @@ nav{
 button:hover{
     cursor: pointer;
 }
+
+
