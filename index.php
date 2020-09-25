@@ -28,7 +28,16 @@
                 quibusdam adipisci atque nemo.</div>
         </div>
     </section>
-    </div>
+</div>
+
+<br>
+<br>
+
+<?php include "view/iframemap.php"; ?>
+
+
+
+
     <?php include "view/pop-connexion.php"; ?>
     <?php include "view/pop-sign.php"; ?>
     <?php include "view/footer.php"; ?>
