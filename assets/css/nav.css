@@ -1,5 +1,6 @@
 nav{
     height: 100px;
+
     
 }
     h1{
@@ -24,4 +25,8 @@ button:hover{
     background-color: #f5a256;
 
 
+}
+
+#debut {
+    margin-top: 75px;
 }
