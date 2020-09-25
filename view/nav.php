@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar navbar-dark bg-dark">
   <h1><img src="assets/img/logoalumni.png" alt=""></h1>
   <div>
   <button id='btn-sign' type="button" class="btn btn-primary">Inscription</button>
