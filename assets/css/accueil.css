@@ -1,0 +1,17 @@
+.contenu-accueil {
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.text-accueil {
+    display: flex;
+    align-items: center;        
+}
+
+.main-accueil {
+    margin-top: 5em;
+}
+
+.section-accueil {
+    padding: 1rem;
+}
