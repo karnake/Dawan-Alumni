@@ -1,0 +1,9 @@
+.contenu-accueil {
+    text-align: justify;
+    padding: 0.5rem;
+}
+
+.text-accueil {
+    display: flex;
+    align-items: center;        
+}
