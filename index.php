@@ -11,35 +11,133 @@
 </head>
 
 <body>
+    
     <?php include "view/nav.php"; ?>
-    <div id="debut">
-    <section class="container bg-light mt-5 p-3">
-    <h2 class="text-center">Bienvenu sur notre réseau Dawan alumni</h2>
-        <?php include "view/slider-containe.php"; ?>
-        <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, officiis repudiandae!
-            Fugiat laudantium dolor repellendus at sapiente iste vel placeat eveniet quidem consequuntur distinctio,
-            aperiam qui. Fuga, labore? Sequi, incidunt.</p>
-        <div class="row mt-5 mb-5">
-            <div class="col-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius quia aliquid facere
-                consectetur quae atque, sunt reprehenderit cum nam, saepe eligendi accusamus sint incidunt laudantium
-                voluptas dignissimos, iusto veritatis quasi.</div>
-            <div class="col-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde ea maiores sunt quos,
-                fugiat dolores maxime deserunt recusandae excepturi nisi explicabo numquam, hic rerum, pariatur eos
-                quibusdam adipisci atque nemo.</div>
-        </div>
-    </section>
+<br><br><br><br>
+    <div class="container">
+<div class="row">
+
+<!-- <button id="btnclick1" onclick="btnclick();toggleText(this.id);">Connexion</button> -->
+
+
+
+<!-- 
+
+<script>
+    
+    
+function btnclick() {
+  var formco1 = document.getElementById("formco1");
+  var formsign1 = document.getElementById("formsign1");
+  if (formco1.style.display === "none") {
+    formco1.style.display = "block";
+    formsign1.style.display = "none";
+  } else {
+    formco1.style.display = "none";
+    formsign1.style.display = "block";
+  }
+} 
+function toggleText(btnclick1)  {
+   var text = document.getElementById(btnclick1).firstChild;
+   text.data = text.data == "Connexion" ? "Inscription" : "Connexion";
+}
+
+</script> -->
+
+
+
+
+
+
+
+
+
+<div class="col-md-6 border-right " id="formsign1">
+
+
+
+
+<form>
+<fieldset>
+<legend>Inscription</legend>
+<div class="form-group">
+  <label class="col-md-2" for="nom">Nom</label>  
+  <div class="col-md-10">
+  <input id="nom" name="nom" type="text" class="form-control input-md" required="">
+  </div>
+</div>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="prenom">Prenom</label>  
+  <div class="col-md-10">
+  <input id="prenom" name="prenom" type="text" placeholder="" class="form-control input-md" required="">
+  </div>
 </div>
 
-<br>
-<br>
-
-<?php include "view/iframemap.php"; ?>
 
 
 
+<div class="form-group">
+  <label class="col-md-2 control-label" for="email">Email</label>
+  <div class="col-md-10">
+<input type="email" id="email" class="form-control input-md"required>  
+  </div>
+</div>
 
-    <?php include "view/pop-connexion.php"; ?>
-    <?php include "view/pop-sign.php"; ?>
+
+
+
+
+<div class="form-group">
+  <label class="col-md-3 control-label" for="mdp">Mot de passe</label>
+  <div class="col-md-10">
+    <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+   </div>
+
+
+
+
+
+   <!-- form co -->
+   <div class="col-md-6 border-left" id="formco1">
+<form class="form-horizontal">
+<fieldset>
+<legend>Connexion</legend>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="email">Email</label>
+  <div class="col-md-10">
+<input type="email" id="email" class="form-control input-md"required>  
+  </div>
+</div>
+
+
+
+
+
+<div class="form-group">
+  <label class="col-md-3 control-label" for="mdp">Mot de passe</label>
+  <div class="col-md-10">
+    <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+</div>
+
+</div>
+
+
+
+</div>
     <?php include "view/footer.php"; ?>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
