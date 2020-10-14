@@ -93,12 +93,19 @@ function toggleText(btnclick1)  {
     <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
     
   </div>
-</div>
 
+  
+<div class="form-group">
+<label class="col-md-3 control-label"></label>
+  <div class="col-md-10">
+    <input type="submit">
+  </div>
+</div>
 </fieldset>
 </form>
 
    </div>
+
 
 
 
@@ -128,7 +135,14 @@ function toggleText(btnclick1)  {
   </div>
 </div>
 
-</fieldset>
+
+<div class="form-group">
+<label class="col-md-3 control-label"></label>
+  <div class="col-md-10" style="padding-top: 152px;">
+    <input type="submit">
+  </div>
+</div>
+</fieldset>     
 </form>
 
 </div>
