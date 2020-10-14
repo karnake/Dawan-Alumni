@@ -12,8 +12,9 @@
 <body>
     
     <?php include "nav-connexion.php"; ?>
+    <br><br>
     <main>
-        <h1>Accueil</h1>
+        <h1>Hello</h1>
     </main>
 
     

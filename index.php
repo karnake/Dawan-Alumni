@@ -139,7 +139,11 @@ function toggleText(btnclick1)  {
 <div class="form-group">
 <label class="col-md-3 control-label"></label>
   <div class="col-md-10" style="padding-top: 152px;">
+<<<<<<< HEAD
     <input type="submit">
+=======
+    <a href="view/connexion.php"><input type="submit"></a>
+>>>>>>> headerConnexionVue
   </div>
 </div>
 </fieldset>     
