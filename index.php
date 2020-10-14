@@ -40,6 +40,72 @@
 
     <?php include "view/pop-connexion.php"; ?>
     <?php include "view/pop-sign.php"; ?>
+
+<div class="form-group">
+  <label class="col-md-3 control-label" for="mdp">Mot de passe</label>
+  <div class="col-md-10">
+    <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+
+  
+<div class="form-group">
+<label class="col-md-3 control-label"></label>
+  <div class="col-md-10">
+    <input type="submit">
+  </div>
+</div>
+</fieldset>
+</form>
+
+   </div>
+
+
+
+
+
+
+   <!-- form co -->
+   <div class="col-md-6 border-left" id="formco1">
+<form class="form-horizontal">
+<fieldset>
+<legend>Connexion</legend>
+<div class="form-group">
+  <label class="col-md-2 control-label" for="email">Email</label>
+  <div class="col-md-10">
+<input type="email" id="email" class="form-control input-md"required>  
+  </div>
+</div>
+
+
+
+
+
+<div class="form-group">
+  <label class="col-md-3 control-label" for="mdp">Mot de passe</label>
+  <div class="col-md-10">
+    <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+
+<div class="form-group">
+<label class="col-md-3 control-label"></label>
+  <div class="col-md-10" style="padding-top: 152px;">
+    <a href="view/connexion.php"><input type="submit"></a>
+  </div>
+</div>
+</fieldset>     
+</form>
+
+</div>
+
+</div>
+
+
+
+</div>
     <?php include "view/footer.php"; ?>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
