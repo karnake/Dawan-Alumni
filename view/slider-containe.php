@@ -6,10 +6,10 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/picsSlider1.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
+      <img src="../assets/img/picsSlider1.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/picsSlider2.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
+      <img src="../assets/img/picsSlider2.jpeg" class="d-block w-100" alt="Photo d'étudiants travaillats sur des ordinateurs">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

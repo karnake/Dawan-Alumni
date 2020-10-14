@@ -12,11 +12,31 @@
 <body>
     
     <?php include "nav-connexion.php"; ?>
-    <br><br>
-    <main>
-        <h1>Hello</h1>
-    </main>
 
+  <main class="container main-accueil">
+
+    <div class="row container bg-light section-accueil">
+        <h1 class="mb-4">Bienvenu sur notre réseau Dawan Alumni</h1>
+        <div class="col-8">
+        <?php include "slider-containe.php"; ?>
+
+        </div>
+        <div class="col-md-4 contenu-accueil">
+            <div class="text-accueil">
+                There are many variations of passages of Lorem Ipsum available, 
+                but the majority have suffered alteration in some form, by injected humour, 
+                or randomised words which don't look even slightly believable. 
+                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
+                embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet 
+                tend to repeat predefined chunks as necessary, making this the first true generator on the 
+                Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model 
+                sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem 
+                Ipsum is therefore always free from repetition, injected humour, or non-characteristic words.
+            </div>
+        </div>
+    </div>
+  </main>
+   
     
 
 

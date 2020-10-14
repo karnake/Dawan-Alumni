@@ -1,34 +1,12 @@
-/* nav{
-    height: 100px;
-    
-}
-    h1{
-        margin: auto;
-       
-    }
-
-button:hover{
-    cursor: pointer;
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    justify-content: center;
 }
 
-.connexion {
-    padding-bottom: 45px;
+.logo {
+margin: auto;
 }
 
-.btn-primary {
-    background-color: #eb7a11;
-    border:0;
-}
-
-.btn-primary:hover {
-    background-color: #f5a256;
-
-} */
-
-/* body {
-    background-color: grey;
-} */
-
-nav {
-    background-color: grey;
+.navbar-light .navbar-nav .nav-link {
+    color: white;
 }
