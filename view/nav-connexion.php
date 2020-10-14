@@ -9,10 +9,10 @@
 </nav> -->
 
 
-<nav>
+<!-- <nav>
   <div class="row">
     <div class="col-md-8">
-        <a href="connexion.php"><img src="../assets/img/logoalumni.png" alt="Logo Dawan Alumni"></a>
+        <a href="accueil.php"><img src="../assets/img/logoalumni.png" alt="Logo Dawan Alumni"></a>
     </div>
     <div class="col-md-4">
     <ul>
@@ -38,4 +38,4 @@
     
     </div>
   </div>
-</nav>
+</nav> -->
