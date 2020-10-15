@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -119,7 +119,7 @@ function toggleText(btnclick1)  {
 <div class="form-group">
   <label class="col-md-2 control-label" for="email">Email</label>
   <div class="col-md-10">
-<input type="email" id="email" class="form-control input-md"required>  
+<input type="email" id="email" class="form-control input-md">  
   </div>
 </div>
 
@@ -130,7 +130,7 @@ function toggleText(btnclick1)  {
 <div class="form-group">
   <label class="col-md-3 control-label" for="mdp">Mot de passe</label>
   <div class="col-md-10">
-    <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
+    <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" >
     
   </div>
 </div>
@@ -139,7 +139,7 @@ function toggleText(btnclick1)  {
 <div class="form-group">
 <label class="col-md-3 control-label"></label>
   <div class="col-md-10" style="padding-top: 152px;">
-    <input type="submit">
+    <a href="view/accueil.php"><input type="submit"></a>
   </div>
 </div>
 </fieldset>     
