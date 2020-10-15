@@ -12,11 +12,28 @@
 
 <body>
 <?php include "nav-connexion.php"; ?>
-<br><br><br><br><br><br><br><br><br>
+<div class="container" >
+<div class="row" style="padding-top: 6rem; text-align:center;">
+    <div class="col-md-4"> 
+    </div>
 
 
-<div class="container">
-    <div class="row">
+    
+    <div class="col-md-4"> 
+    <h3>Liens des cours :</h3>
+    </div>
+
+    
+    <div class="col-md-4"> 
+
+    </div>
+
+
+
+
+
+</div>
+    <div class="row" style="padding-top: 3rem;">
     <div class="col-md-4"> 
     <button class="btn btn-outline-dark btn-block">HTML</button>
     </div>
@@ -34,13 +51,12 @@
 
 </div>
     </div>
-    <br><br><br><br><br>
-<div class="row">
+<div class="row" style="padding-top: 6rem;">
     <div class="col-md-4"> 
-    <button class="btn btn-outline-dark btn-block">JQUERY</button>
+    <button class="btn btn-outline-dark btn-block" onclick="window.open('../assets/pdf/pdf_jquery.pdf'); return true;">JQUERY</button>
     </div>
 
-
+    embed src="file_name.pdf" width="800px" height="2100px"
     
     <div class="col-md-4"> 
     <button class="btn btn-outline-dark btn-block">PHP</button>
@@ -48,7 +64,7 @@
     </div>
 
     
-    <div class="col-md-4"> 
+    <div class="col-md-4">  
     <button class="btn btn-outline-dark btn-block">GIT</button>
 
     </div>
@@ -58,8 +74,51 @@
 
 
 </div>
+
+
+<div class="row" style="padding-top: 6rem;">
+    <div class="col-md-4"> 
+    </div>
+
+
+    
+    <div class="col-md-4"> 
+    <button class="btn btn-outline-dark btn-block" onclick="window.open('../assets/pdf/pdf_bootstrap.pdf'); return true;">BOOTSTRAP</button>
+
+    </div>
+
+    
+    <div class="col-md-4"> 
+
+    </div>
+
+
+
+
+
+</div>
 </div>
 
+<!-- <script>
+
+function btnclick() {
+  var formco1 = document.getElementById("formco1");
+  var formsign1 = document.getElementById("formsign1");
+  if (formco1.style.display === "none") {
+    formco1.style.display = "block";
+    formsign1.style.display = "none";
+  } else {
+    formco1.style.display = "none";
+    formsign1.style.display = "block";
+  }
+} 
+function toggleText(btnclick1)  {
+   var text = document.getElementById(btnclick1).firstChild;
+   text.data = text.data == "Connexion" ? "Inscription" : "Connexion";
+}
+
+
+</script> -->
 
     <?php include "footer.php"; ?>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
