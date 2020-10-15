@@ -93,7 +93,15 @@ function toggleText(btnclick1)  {
     <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" required="">
     
   </div>
-
+<br>
+  
+<div class="form-group">
+  <label class="col-md-5 control-label" for="confirmmdp">Confirmer le mot de passe</label>
+  <div class="col-md-10">
+    <input id="confirmmdp" name="confirmmdp" type="password" placeholder="" class="form-control input-md" required>
+    
+  </div>
+</div>
   
 <div class="form-group">
 <label class="col-md-3 control-label"></label>
@@ -131,15 +139,6 @@ function toggleText(btnclick1)  {
   <label class="col-md-3 control-label" for="mdp">Mot de passe</label>
   <div class="col-md-10">
     <input id="mdp" name="mdp" type="password" placeholder="" class="form-control input-md" >
-    
-  </div>
-</div>
-
-
-<div class="form-group">
-  <label class="col-md-3 control-label" for="confirmmdp">Confirmer le mot de passe</label>
-  <div class="col-md-10">
-    <input id="confirmmdp" name="confirmmdp" type="password" placeholder="" class="form-control input-md" >
     
   </div>
 </div>
