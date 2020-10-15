@@ -77,13 +77,13 @@
 
      <div class="row " style="text-align:center;">
          <div class="col-md-4">
-    <img src="assets/img/CIC.png" style="width:170px; " alt="Logo CIC">
+    <img src="assets/img/CIC.png" class="photo" style="width:170px; " alt="Logo CIC">
         </div>
         <div class="col-md-4">
-    <img src="assets/img/audi.png" style="width:170px; " alt="Audi">
+    <img src="assets/img/audi.png" class="photo" style="width:170px; " alt="Audi">
         </div>
         <div class="col-md-4">
-    <img src="assets/img/total.png" style="width:190px; " alt="TOTAL">
+    <img src="assets/img/total.png" class="photo" style="width:190px; " alt="TOTAL">
         </div>
 
      </div>
@@ -94,13 +94,13 @@
 
      <div class="row " style="text-align:center;">
          <div class="col-md-4">
-    <img src="assets/img/paris.png" style="width:170px;" alt="mairie de paris">
+    <img src="assets/img/paris.png" class="photo" style="width:170px;" alt="mairie de paris">
         </div>
         <div class="col-md-4">
-    <img src="assets/img/laposte.png" style="width:170px;" alt="laposte">
+    <img src="assets/img/laposte.png" class="photo" style="width:170px;" alt="laposte">
         </div>
         <div class="col-md-4">
-    <img src="assets/img/bnp.jpg" style="width:190px;" alt="bnp">
+    <img src="assets/img/bnp.jpg" class="photo" style="width:190px;" alt="bnp">
         </div>
 
      </div>
