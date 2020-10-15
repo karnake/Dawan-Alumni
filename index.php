@@ -137,6 +137,14 @@ function toggleText(btnclick1)  {
 
 
 <div class="form-group">
+  <label class="col-md-3 control-label" for="confirmmdp">Confirmer le mot de passe</label>
+  <div class="col-md-10">
+    <input id="confirmmdp" name="confirmmdp" type="password" placeholder="" class="form-control input-md" >
+    
+  </div>
+</div>
+
+<div class="form-group">
 <label class="col-md-3 control-label"></label>
   <div class="col-md-10" style="padding-top: 152px;">
     <a href="/Dawan-Alumni/view/accueil.php"><input type="submit"></a>
