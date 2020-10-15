@@ -15,24 +15,7 @@
 <?php include "nav-connexion.php"; ?>
 
 
-
-<div class="">
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-</div>
-
-
-
-
-<div class="container annuaire">
+<div class="container annuaire mt-5">
 
    <div class="row">
 
@@ -57,23 +40,23 @@
 
         <div class="col-md-6">
 <h1>Carte</h1>
-      <br>
-      <br>
 
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.8103214176567!2d2.316389115902547!3d48.8427566097611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671ccb16540b5%3A0xb94e60afcc950426!2sDAWAN!5e0!3m2!1sfr!2sfr!4v1602682356511!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
    </div>
-</div>
 
-
-
-<div class="container-fluid section" style="text-align:center;">
+   <div class="section mb-5" style="text-align:center;">
 
   <h2>Ils nous ont fait confiance</h2>
 
-</div>
+    </div>
+</div><!-- End container-->
 
-<div class="container">
+
+
+
+
+<div class="">
 
      <div class="row " style="text-align:center;">
          <div class="col-md-4">
@@ -90,7 +73,7 @@
 
 </div>
 
-<div class="container">
+<div class="mb-5">
 
      <div class="row " style="text-align:center;">
          <div class="col-md-4">
