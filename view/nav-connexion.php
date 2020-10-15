@@ -8,16 +8,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav col-md-6">
       <li class="nav-item">
-        <a class="nav-link" href="#">Accueil</a>
+        <a class="nav-link" href="accueil.php">Accueil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cours</a>
+        <a class="nav-link" href="cours.php">Cours</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Forum</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Annuaire</a>
+        <a class="nav-link" href="annuaire.php">Annuaire</a>
       </li>
     </ul>
   </div>
