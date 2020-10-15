@@ -11,7 +11,7 @@
 </head>
 
 <body>
-<?php include "/wamp64/www/Dawan-Alumni/view/nav.php"; ?>
+<?php include "/wamp64/www/Dawan-Alumni/view/nav-connexion.php"; ?>
 <br><br><br><br><br><br>
 
 <div class="container-fluid">
