@@ -56,7 +56,6 @@
     <button class="btn btn-outline-dark btn-block" onclick="window.open('../assets/pdf/pdf_jquery.pdf'); return true;">JQUERY</button>
     </div>
 
-    embed src="file_name.pdf" width="800px" height="2100px"
     
     <div class="col-md-4"> 
     <button class="btn btn-outline-dark btn-block">PHP</button>
@@ -83,7 +82,7 @@
 
     
     <div class="col-md-4"> 
-    <button class="btn btn-outline-dark btn-block" onclick="window.open('../assets/pdf/pdf_bootstrap.pdf'); return true;">BOOTSTRAP</button>
+    <button class="btn btn-outline-dark btn-block" onclick="btnclick(); return true;">BOOTSTRAP</button>
 
     </div>
 
@@ -97,30 +96,36 @@
 
 
 </div>
+<i>test button bootstrap, resolve le footer, faire un button pr jquery</i>
+<div class="row" style="height:50rem; padding-top:2rem; display:none;" id="pop2">
+   
+    <div class="col-md-12"> 
+    <embed src="../assets/pdf/PDF_bootstrap.pdf" width="100%" height="800rem"/>
+    </div>
+
+
+    </div>
+
+
+
+
+</div>
 </div>
 
-<!-- <script>
+<script>
 
 function btnclick() {
-  var formco1 = document.getElementById("formco1");
-  var formsign1 = document.getElementById("formsign1");
-  if (formco1.style.display === "none") {
-    formco1.style.display = "block";
-    formsign1.style.display = "none";
+  
+  if (pop2.style.display === "none") {
+    pop2.style.display = "block";
   } else {
-    formco1.style.display = "none";
-    formsign1.style.display = "block";
+    pop2.style.display = "none";
   }
 } 
-function toggleText(btnclick1)  {
-   var text = document.getElementById(btnclick1).firstChild;
-   text.data = text.data == "Connexion" ? "Inscription" : "Connexion";
-}
 
-
-</script> -->
-
-    <?php include "footer.php"; ?>
+</script>
+    <div>
+    <?php include "footer.php"; ?></div>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         crossorigin="anonymous"></script>
