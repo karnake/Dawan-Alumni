@@ -58,7 +58,7 @@
 
     
     <div class="col-md-4"> 
-    <button class="btn btn-outline-dark btn-block">PHP</button>
+    <button class="btn btn-outline-dark btn-block" onclick="btnclick2(); return true;">PHP</button>
 
     </div>
 
@@ -88,6 +88,8 @@
     <div class="col-md-12"> 
     <embed src="../assets/pdf/PDF_bootstrap.pdf" width="100%"  style="height:62rem; padding-top:2rem; display:none;" id="pop2"/>
     <embed src="../assets/pdf/PDF_jquery.pdf" width="100%" style="height:62rem; padding-top:2rem; display:none;" id="pop1"/>
+    <embed src="../assets/pdf/PDF_php1.pdf" width="100%" style="height:62rem; padding-top:2rem; display:none;" id="pop3"/>
+
     </div>
     </div>
 </div>
@@ -105,6 +107,8 @@ function btnclick() {
   if (pop2.style.display === "none") {
     pop2.style.display = "block";
     pop1.style.display = "none";
+    pop3.style.display = "none";
+
 
   } else {
     pop2.style.display = "none";
@@ -115,10 +119,25 @@ function btnclick1() {
   if (pop1.style.display === "none") {
     pop1.style.display = "block";
     pop2.style.display = "none";
+    pop3.style.display = "none";
+
 
 
   } else {
     pop1.style.display = "none";
+  }
+} 
+
+function btnclick2() {
+  if (pop3.style.display === "none") {
+    pop3.style.display = "block";
+    pop1.style.display = "none";
+    pop2.style.display = "none";
+
+
+  } else {
+    pop3.style.display = "none";
+    
   }
 } 
 
