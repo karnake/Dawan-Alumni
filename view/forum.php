@@ -20,6 +20,14 @@
 <div class="container fofo">
 <h1>Forum</h1>
 
+<img src="../assets/img/forumimage1.jpg" class="img-fluid eleve" alt="étudiant qui ont eu leur diplôme">
+
+<hr>
+
+<p>Voici le forum des anciens élèves de Dawan. Ce forum est à la disposition de tous, tout le monde peut poser ces questions et interagir dans le respect et la bonne humeur.
+    Dawan est un organisme de formation qui accompagne ces élèves et anciens élèves, voila l'enseignement façon Dawan !
+    Le but principal de cette page est de permettre aux anciens élèves de bénéficier d'un dispositif d'entraide et biensur.. que pour les anciens !
+</p>
 
 
 <br><br><br>
