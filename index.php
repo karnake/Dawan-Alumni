@@ -57,7 +57,7 @@ function toggleText(btnclick1)  {
 
 
 
-<form>
+<for m>
 <fieldset>
 <legend>Inscription</legend>
 <div class="form-group">

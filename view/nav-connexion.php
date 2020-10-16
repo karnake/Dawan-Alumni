@@ -27,7 +27,7 @@
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="reglagecompte.php">Réglages</a>
-        <a class="dropdown-item" href="#">Déconnexion</a>
+        <a class="dropdown-item" href="../index.php">Déconnexion</a>
       </div>
     </li>
    </ul>

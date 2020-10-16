@@ -19,4 +19,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+  
 }

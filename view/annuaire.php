@@ -50,11 +50,6 @@
   <h2>Ils nous ont fait confiance</h2>
 
     </div>
-</div><!-- End container-->
-
-
-
-
 
 <div class="">
 
@@ -88,7 +83,15 @@
 
      </div>
 
-</div>
+</div>  
+
+</div><!-- End container-->
+
+
+
+
+
+
 
 <?php include "footer.php"; ?>
 

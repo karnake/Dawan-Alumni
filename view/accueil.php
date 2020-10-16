@@ -15,7 +15,7 @@
 
   <main class="container main-accueil">
 
-    <div class="row container bg-light section-accueil">
+    <div class="row bg-light section-accueil">
         <h1 class="mb-4">Bienvenu sur notre réseau Dawan Alumni</h1>
         <div class="col-8">
         <?php include "slider-containe.php"; ?>
