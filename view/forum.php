@@ -93,7 +93,6 @@
   </div>
 
 
-</div>
 
 
 
@@ -101,47 +100,21 @@
 
 
 
-<form class="contact">
-
-
-<!-- Form Name -->
-<legend>Contactez les admins !</legend>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="Nom">Nom</label>  
-  <div class="col-md-12">
-  <input id="Nom" name="Nom" type="text" placeholder="" class="form-control input-md">
-    
-  </div>
-</div>
-
-<!-- Text input-->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="Prenom">Prenom</label>  
-  <div class="col-md-12">
-  <input id="Prenom" name="Prenom" type="text" placeholder="" class="form-control input-md">
-    
-  </div>
-</div>
-
-<!-- Textarea -->
-<div class="form-group">
-  <label class="col-md-4 control-label" for="Votre message">Message</label>
-  <div class="col-md-12">                     
-    <textarea class="form-control" id="Votre message" name="Votre message">Ecrivez votre message...</textarea>
-  </div>
-</div>
-
-
-</form>
 
 </div>
 
 
-<div class="espace">
+
+
+
+
+
+
 
 </div>
+
+
+
 
 
 
