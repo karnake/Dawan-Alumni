@@ -14,7 +14,7 @@
         <a class="nav-link" href="cours.php">Cours</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Forum</a>
+        <a class="nav-link" href="forum.php">Forum</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="annuaire.php">Annuaire</a>
