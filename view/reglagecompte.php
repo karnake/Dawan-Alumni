@@ -18,12 +18,41 @@
 <div class="row">
 <div class="col-md-2"></div>
 <div class="col-md-8 border">
-<h3 style="text-align: center;">
+<h3 style="text-align: center; margin-bottom:5rem;">
 Modifier mes informations</h3>
+
+
+
 
 <form class="form-horizontal">
 <fieldset>
-<div class="form-group">
+
+<div class="col-md-12">
+  <h5 style="padding-bottom: 1rem;">Changer la photo de profil :</h5>
+    <img id="photoup" src="#" alt=""/>
+</div>
+<div class="col-md-12">
+<input type='file' onchange="uploadimage(this);"/>
+</div>
+
+<script>
+  function uploadimage(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#photoup')
+                        .attr('src', e.target.result)
+                        .width(300)
+                        .height(300);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+</script>
+
+<div class="form-group" style="padding-top: 3rem;">
   <label class="col-md-4 control-label" for="nom">Nom</label>  
   <div class="col-md-12">
   <input id="nom" name="nom" type="text" class="form-control input-md">
@@ -41,7 +70,7 @@ Modifier mes informations</h3>
 <div class="form-group">
   <label class="col-md-4 control-label" for="email">Email</label>
   <div class="col-md-12">
-<input type="email" id="email" class="form-control input-md"required>  
+<input type="email" id="email" class="form-control input-md">  
   </div>
 </div>
 
