@@ -13,14 +13,15 @@
     
     <?php include "nav-connexion.php"; ?>
 
-  <main class="container main-accueil">
-
+  <main class="container-fluid main-accueil">
+    <div class="container">
     <div class="row bg-light section-accueil">
         <h1 class="mb-4">Bienvenu sur notre réseau Dawan Alumni</h1>
-        <div class="col-8">
-        <?php include "slider-containe.php"; ?>
 
+        <div class="col-md-8">
+            <?php include "slider-containe.php"; ?>
         </div>
+
         <div class="col-md-4 contenu-accueil">
             <div class="text-accueil">
                 There are many variations of passages of Lorem Ipsum available, 
@@ -33,14 +34,41 @@
                 sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem 
                 Ipsum is therefore always free from repetition, injected humour, or non-characteristic words.
             </div>
-        </div>
+        </div> 
     </div>
-  </main>
-   
+        <!-- ACTUALITES/EVENTS -->
+       
+    <div class="row bg-light section-accueil">
+        <h1 class="mb-4">Retrouvez nos dernières actualités</h1>
+
+        <div class="col-md-8">
+        <figure class="videoTemoignage">
+                <video controls width ="400">
+                    <source src="http://www.dawan.fr/im-dyn/dawan-foad-temoignages.webm">
+                </video>
+                <figcaption>Témoignages d'anciens élèves</figcaption>
+            </figure>
+        </div>
+
+        <div class="col-md-4 contenu-accueil">
+            <div class="text-accueil border solid">
+
+                <div class="logoLinkFb col-md-4">
+                    <img src="../assets\img\logoDawan.png" width="200" alt="logo Dawan">
+                    <div class="text-center ">
+                        <img src="../assets/img/facebook.png" alt="logo Facebook Dawan" width="20px">
+                        <a href="https://fr-fr.facebook.com/DawanFrance">Visiter la page Facebook DawanFrance</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+</main>
+    <?php include 'footer.php'?>
     
 
 
-    <?php include "footer.php"; ?>
+   
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
